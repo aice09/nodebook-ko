@@ -1,5 +1,5 @@
 {
-  "name": "working-with-input",
+  "name": "@aice09/nodebook-ko",
   "version": "1.0.1",
   "description": "Getting started with input in Node.Js",
   "main": "index.js",

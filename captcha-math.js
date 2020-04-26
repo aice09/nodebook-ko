@@ -4,6 +4,7 @@ require('readline').createInterface({
     output: process.stdout
 });
 
+//Captcha Generator
 function promptCaptcha() {
     return new Promise(function name(resolve, reject) {
        var ask = function name() {
@@ -15,7 +16,8 @@ function promptCaptcha() {
             {
                 guessedsum = parseInt(answer);
                 
-                if (guessedsum!=sumis) {                    
+                if (guessedsum!=sumis) {    
+                    console.log('Okay! Try again!')                
                     ask();
                 } else {
                     resolve(guessedsum,reject);
@@ -28,7 +30,7 @@ function promptCaptcha() {
 
 (async function start() {
     var captcha1 = await promptCaptcha();
-    console.log('test' + captcha1);
+    console.log('Great! ' + captcha1 + ' is correct.');
     process.exit();
     
 })();
