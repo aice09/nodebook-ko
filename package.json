@@ -24,8 +24,5 @@
   "homepage": "https://github.com/aice09/nodebook-ko#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  },
-  "publishConfig": { 
-    "registry": "https://npm.pkg.github.com/" 
   }
 }
