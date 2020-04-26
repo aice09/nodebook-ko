@@ -16,7 +16,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:aice09/nodebook-ko.git"
+    "url": "git@github.com:aice09/nodebook-ko.git",
+    "directory": "packages/nodebook-ko"
   },
   "bugs": {
     "url": "https://github.com/aice09/nodebook-ko/issues"
