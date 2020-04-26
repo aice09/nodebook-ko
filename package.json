@@ -1,6 +1,6 @@
 {
   "name": "@aice09/nodebook-ko",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Getting started with input in Node.Js",
   "main": "index.js",
   "bin": "index.js",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/aice09/nodebook-ko#readme",
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "registry-url": "^5.1.0"
   }
 }
