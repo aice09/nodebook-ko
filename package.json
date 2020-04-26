@@ -1,5 +1,5 @@
 {
-  "name": "@aice09/nodebook-ko",
+  "name": "nodebook-ko",
   "version": "1.0.1",
   "description": "Getting started with input in Node.Js",
   "main": "index.js",
@@ -25,5 +25,6 @@
   "homepage": "https://github.com/aice09/nodebook-ko#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
